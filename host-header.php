@@ -16,7 +16,7 @@
  * Plugin Name:       Host Header
  * Plugin URI:        https://github.com/whyisjake/host-header
  * Description:       Add a Host-Header to track down hosting partners in helping combat web spam.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Jake Spurlock
  * Author URI:        https://jakespurlock.com
  * License:           GPL-2.0+
@@ -31,7 +31,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Current plugin version.
  */
-define( 'HOST_HEADER_VERSION', '1.0.0' );
+define( 'HOST_HEADER_VERSION', '1.0.1' );
 
 function host_header_add_to_headers( $headers ) {
 	$options = get_option( 'host_header_api_settings' );

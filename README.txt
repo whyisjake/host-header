@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== WordPress Host Headers ===
 Contributors: whyisjake
 Donate link: https://jakespurlock.com
 Tags: security, hosting
@@ -16,13 +16,13 @@ This simple plugin that adds a "Host-Header" HTTP header where you can define yo
 
 This plugin is super overkill. Adding a simple file with the following to your `mu-plugins.php` will have the same effect.
 
-```
+`
 // custom-host-header.php
 add_filter( 'wp_headers', function( $headers ) {
 	$headers['Host-Header'] = 'YOUR HOST NAME HERE';
 	return $headers;
 } );
-```
+`
 
 == Installation ==
 
@@ -36,6 +36,9 @@ e.g.
 1. There is no step 4.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix the clode block
 
 = 1.0.0 =
 * Let's kick this off.
