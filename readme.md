@@ -33,7 +33,7 @@ e.g.
 1. Upload `/host-header/` plugin to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 1. Or, search for the plugin in the plugin repo.
-1. There is no step 3.
+1. There is no step 4.
 
 ## Changelog ##
 
